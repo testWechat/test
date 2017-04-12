@@ -1,3 +1,3 @@
 ;(function(){
-	console.log('Éµ±Æ');
+	console.log('å‚»é€¼');
 })
