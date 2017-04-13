@@ -1,7 +1,7 @@
-![mahua](mahua-logo.jpg)
+![weixin](img/weixin.jpg)
 # 曾经蜡笔没有小信
 
-##有问题反馈
+## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
 * 邮件:linuxzhixin@gmail.com
@@ -9,24 +9,24 @@
 * weibo: [@曾经蜡笔没有小信](http://weibo.com/linuxzhixin)
 * github: [@testWechat](https://github.com/testWechat)
 
-##目录:
-*css
-    *main.css
-*doc
-    *git.docx
-*gulp
-	*gulpfile.js
-	*package.json
-*js
-	*EaselJS.js
-	*jquery-2.1.1.min.js
-	*main.js
-	*ndgmr.Collision.js
-	*preloadjs-NEXT.min.js
-	*rem.js
-	*soundjs-NEXT.combined.js
-	*tweenjs-0.6.0.min.js
-	*TweenMax.min.js
+## 目录:
+* css
+    * main.css
+* doc
+    * git.docx
+* gulp
+	* gulpfile.js
+	* package.json
+* js
+	* EaselJS.js
+	* jquery-2.1.1.min.js
+	* main.js
+	* ndgmr.Collision.js
+	* preloadjs-NEXT.min.js
+	* rem.js
+	* soundjs-NEXT.combined.js
+	* tweenjs-0.6.0.min.js
+	* TweenMax.min.js
 
 
 API文档
