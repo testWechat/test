@@ -2,23 +2,23 @@
 测试Github
 
 目录:
-	--	css
-		--	main.css
-	--	doc
-		--	git.docx
-	--	gulp
-		--	gulpfile.js
-		--	package.json
-	--	js
-		--	EaselJS.js
-		--	jquery-2.1.1.min.js
-		--	main.js
-		--	ndgmr.Collision.js
-		--	preloadjs-NEXT.min.js
-		--	rem.js
-		--	soundjs-NEXT.combined.js
-		--	tweenjs-0.6.0.min.js
-		--	TweenMax.min.js
+	-	css
+		-	main.css
+	-	doc
+		-	git.docx
+	-	gulp
+		-	gulpfile.js
+		-	package.json
+	-  js
+		-	EaselJS.js
+		-	jquery-2.1.1.min.js
+	    -	main.js
+		-	ndgmr.Collision.js
+		-	preloadjs-NEXT.min.js
+		-	rem.js
+		-	soundjs-NEXT.combined.js
+		-	tweenjs-0.6.0.min.js
+		-	TweenMax.min.js
 
 
 EaselJS提供了一套完整的，层次化的显示列表的互动方式 来更简单的处理HTML5画布。
