@@ -1,4 +1,4 @@
-![weixin](./img/weixin.jpg)
+![weixin](https://github.com/testWechat/test/img/weixin.jpg)
 # 曾经蜡笔没有小信
 
 ## 有问题反馈
