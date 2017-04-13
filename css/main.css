@@ -1,0 +1,282 @@
+/* 
+* email：746979855@qq.com
+* Version：0.1
+* auth：Mr.xu
+* Data：2014年2月29日 10:51:33
+ */
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, STHeiti STXihei, Microsoft JhengHei, Microsoft YaHei, Tohoma, Arial;
+}
+
+label {
+	cursor: pointer;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+input,
+button,
+select,
+textarea {
+	outline: none;
+	/*-webkit-appearance:none;*/
+	/*强制去除表单自带的样式*/
+}
+
+textarea {
+	resize: none;
+	/*-webkit-appearance:none;*/
+	/*强制去除textarea自带的样式*/
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+/*利用阴影来填充掉input自动填充色*/
+
+li {
+	list-style: none;
+}
+
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+.hide {
+	display: none;
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1
+}
+
+.music {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.music .icon {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url(../img/audio.png) no-repeat;
+	background-size: 50px 50px;
+}
+
+.music.play .icon {
+	-webkit-animation: reveZ 1.2s linear infinite;
+}
+
+@keyframes reveZ {
+	0% {
+		-webkit-transform: rotateZ(0deg)
+	}
+	100% {
+		-webkit-transform: rotateZ(360deg)
+	}
+}
+
+@-webkit-keyframes reveZ {
+	0% {
+		-webkit-transform: rotateZ(0deg)
+	}
+	100% {
+		-webkit-transform: rotateZ(360deg)
+	}
+}
+
+img {
+	max-width: 100%;
+}
+
+.abs {
+	position: absolute;
+}
+
+.rel {
+	position: relative;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.arrow {
+	width: 50px;
+	left: 50%;
+	margin-left: -25px;
+	bottom: 5%;
+	-webkit-animation: upDown 1.3s ease-in-out infinite;
+	animation: upDown 1.3s ease-in-out infinite;
+}
+
+@-webkit-keyframes upDown {
+	0% {
+		-webkit-transform: translate3d(0, -3px, 0);
+		transform: translate3d(0, -3px, 0);
+	}
+	50% {
+		-webkit-transform: translate3d(0, 6px, 0);
+		transform: translate3d(0, 6px, 0);
+	}
+	100% {
+		-webkit-transform: translate3d(0, -3px, 0);
+		transform: translate3d(0, -3px, 0);
+	}
+}
+
+@keyframes upDown {
+	0% {
+		-webkit-transform: translate3d(0, -3px, 0);
+		transform: translate3d(0, -3px, 0);
+	}
+	50% {
+		-webkit-transform: translate3d(0, 6px, 0);
+		transform: translate3d(0, 6px, 0);
+	}
+	100% {
+		-webkit-transform: translate3d(0, -3px, 0);
+		transform: translate3d(0, -3px, 0);
+	}
+}
+
+html,
+body {
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	-webkit-touch-callout:none; /* 禁用长触弹出的下载图片菜单 */
+    -webkit-user-select:none; /* 禁用长触选择文字等功能 */
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.screen {
+	width: 100%;
+	height: 100%;
+	overflow: hidden!important;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	position: relative;
+}
+
+#wrapper {
+	height: 100px;
+	position: relative;
+}
+
+div,
+img {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	z-index: 1;
+}
+
+.loading {
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 38px;
+	text-align: center;
+}
+
+/* 加载动画 */
+
+.spinner {
+	width: 60px;
+	height: 60px;
+	position: relative;
+    margin: 400px auto 50px;
+}
+
+.double-bounce1,
+.double-bounce2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #67CF22;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: bounce 2.0s infinite ease-in-out;
+	animation: bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+	0%,
+	100% {
+		-webkit-transform: scale(0.0)
+	}
+	50% {
+		-webkit-transform: scale(1.0)
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	}
+	50% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+	}
+}
+
+
+/* main.css*/
+
+
+
